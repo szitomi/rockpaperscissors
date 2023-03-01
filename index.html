@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mini Game</title>
+<script src="scripts.js"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/icon type" href="/images/icon.png">
+</head>
+<body>
+
+    <div class="container">
+
+      <div class="resultList">
+        <ul>
+          <li id="nyert">Nyert(0)</li>
+          <li id="dontetlen" >Döntetlen(0)</li>
+          <li id="vesztett">Vesztett(0)</li>
+        </ul>
+      </div>
+
+      <div class="action">
+        <img onclick=choosePicRock() src="rock.png" alt="Rock" style="width:20%">
+        <img onclick=choosePicPaper() src="paper.png" alt="Paper" style="width:20%"> 
+        <img onclick=choosePicScissors() src="scissors.png" alt="Scissors" style="width:20%">
+      </div>
+           
+      <div class="randomChoose">      
+        <img id="randomImage" src="transparent.png">
+      </div>
+      
+      <div class="resultTitle">
+        <h2 id="result" style="padding-bottom: 20px;"></h2>
+      </div>          
+      
+      <p class="pButton">
+        <button type="button" onclick=reload()>Újra!</button>
+      </p>
+
+    </div>
+    
+       
+  
+
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+@media screen and (max-width: 500px) {
+    #randomImage
+    {
+    width: 50px;
+    height: 50px;
+    }
+  }
+
+
+
+body{
+    background-image: url('bg.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100%;
+    background-position: bottom;
+}
+
+ul
+{
+    list-style-type: none;
+    color: white;
+    font: 1.5em sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 25px 50px;
+}
+
+.action {
+    max-width: 800px;
+    padding: 40px 0;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.resultTitle, .randomChoose{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 35px;
+}
+
+#randomImage
+{
+    width: 155px;
+    height: 155px;
+}
+
+
+button
+{
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white;
+    border: round;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 16px;
+    margin: auto;
+}
+
